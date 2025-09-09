@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block
+}
+
+img{
+    width: 100%;
+}
+
+ul {
+    list-style:none;
+}
+
+:root{
+    --orenge:#f14040;
+    --purpale:#330b3b;
+    --light-purpale:#9845AA;
+    --white:white;
+    --light-t-purpale:#654c6b;
+    --light-tt-purpale:#6f6794;
+    --lighti-t-orenge:#e67e43;
+    --yellow-t-:#ffcb62;
+    --pink-y-:#ff6060;
+    --pink-x-pink:#ff6060;
+
+
+}
+
+:root{
+    --dancing-script: "Dancing Script", cursive;
+    --inter:"Inter", sans-serif;
+    --roboto: "Roboto Slab", serif;
+}
+/* ##### HEADER ##### */
+
+header{
+        background-color: var(--purpale);
+
+}
+
+header .bg-img{
+    background-image: url(/image/event8-slider-pic1\ \(1\).webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+header .nav .buttons a{
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+header .nav .buttons a:hover{
+    color: rgb(247, 122, 77);
+    border-bottom: solid 3px var(--orenge);
+}
+
+header .nav .buttons a:last-child{
+    background-color: rgb(255, 93, 34);
+    padding: 12px 20px;
+    border-radius: 55px;
+    margin-left: 15px ;
+}
+
+header .nav .buttons a:first-child{
+    border-bottom: solid 3px var(--orenge);
+  
+}
+
+header .nav .buttons a:last-child:hover{
+    color: white;
+}
+
+
+header .timetoparty{
+    font-family: var(--dancing-script);
+    color: var(--white);
+    font-size: 42px;
+}
+
+header .timetoparty i{
+    font-size: 16px;
+    margin: 0 16px;
+    color: var(--orenge);
+}
+
+header .event{
+    font-family: var(--inter);
+}
+
+header .event{
+    font-size: 77px;
+    font-weight: 800;
+}
+
+header .event span{
+    font-size: 35px;
+    padding: 6px 6px 10px 6px;
+    color: var(--orenge);
+    border: 2px solid var(--light-t-purpale);
+    border-radius: 6px;
+}
+
+header .event ul li:last-child{
+    color: var(--orenge);
+} 
+
+header .nav > p{
+    margin-left: 40px;
+    padding-right: 150px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.nav .btn a:first-child{
+    background-color: var(--orenge);
+    font-size: 15px;
+    border: 1px solid var(--orenge);
+    border-radius: 25px;
+    padding: 8px 30px;
+    margin:  0 30px;
+    color: var(--white);
+    font-family: var(--inter);
+    font-weight: 700;
+}
+
+.nav .btn a:first-child:hover{
+    background-color: var(--white);
+    color: var(--orenge);
+
+}
+
+.nav .btn a:last-child{
+    color: var(--orenge);
+    font-weight: 700;
+    font-family: var(--inter);
+    font-size: 15px;
+    padding: 8px 30px;
+}
+
+.nav .btn a:last-child:hover{
+    color: var(--white);
+    border-radius: 25px;
+    border: 1px solid var(--orenge);    
+}
+
+
+/* ##### card ##### */
+
+.card .card-items{
+    background-color: var(--purpale);
+}
+
+
+
+.card .card-items
